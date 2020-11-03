@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-bonus.css">
+    <meta charset="utf-8">
+    <title>GMAIL</title>
+  </head>
+  <body>
+    <!-- sostituisce il body -->
+    <div id="conteiner">
+      <!-- impaginazione -->
+      <div id="pagina">
+        <!-- titolo pagina -->
+        <header>
+          <!-- divido l header in 2 sezioni -->
+          <div id="header-sinistra">
+            <img src="img/logo.jpg" alt="logo" id="logo">
+          </div>
+          <div id="header-destra">
+            <h1 class="grassetto-bianco" id="scritta-gmail">Gmail</h1>
+          </div>
+        </header>
+        <!-- /titolo pagina -->
+        <!-- nav pagina -->
+        <nav>
+          <!-- divido il nav in sezione input e scritta -->
+          <div class="sezione-input">
+            <input type="search" name="ricerca" placeholder="search">
+            <input type="button" name="" value="VAI">
+          </div>
+          <div class="sezione-scritta grassetto-bianco">
+            You have <span id="cerchio">30</span> unread
+          </div>
+        </nav>
+        <!-- /fine nav -->
+        <!-- inizio contenuto -->
+        <main>
+          <!-- elenco mail -->
+          <div id="sezione-mail">
+            <!-- riga-mail -->
+            <div class="riga">
+              <input type="checkbox" name="selezione">
+              &starf;
+              <span class="grassetto">Oggetto della mail</span><span class="grigino"> - testo della mail...</span>
+            </div>
+            <!-- fine riga-mail x4 -->
+            <div class="riga" id="riga-due">
+              <input type="checkbox" name="selezione">
+              &starf;
+              <span class="grassetto">Oggetto della mail</span><span class="grigino"> - testo della mail...</span>
+            </div>
+            <!-- /riga1 x3 -->
+            <div class="riga">
+              <input type="checkbox" name="selezione">
+              &starf;
+              <span class="grassetto">Oggetto della mail</span><span class="grigino"> - testo della mail...</span>
+            </div>
+
+            <div class="riga" id="riga-quattro">
+              <input type="checkbox" name="selezione">
+              &starf;
+              <span class="grassetto">Oggetto della mail</span><span class="grigino"> - testo della mail...</span>
+            </div>
+          </div>
+        </main>
+        <!-- fine contenuto -->
+        <footer class="grassetto-bianco">GMail <span id="italic-font">powered by Matteo</span></footer>
+      </div>
+    </div>
+  </body>
+</html>

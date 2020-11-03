@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#conteiner{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/sfondo.jpg");
+}
+
+#pagina{
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+header{
+  width: 100%;
+  height: 20vh;
+  border-bottom: 1px solid white;
+}
+
+header:after{
+ clear: both;
+ content: "";
+ display: table;
+}
+
+header #header-sinistra{
+  width: 7vw;
+  height: 100%;
+  float: left;
+}
+
+#header-sinistra > #logo{
+  width: 7vw;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+header #header-destra{
+  width: calc(100% - 7vw);
+  height: 100%;
+  float: left;
+  padding-left: 1vw;
+  line-height: 20vh;
+}
+
+#scritta-gmail{
+  font-size: 5vh;
+}
+
+nav{
+  width: 100%;
+  height: 20vh;
+  border-bottom: 1px solid white;
+}
+
+nav .sezione-input{
+  width: 100%;
+  height: 8vh;
+  border-bottom: 1px solid black;
+  line-height: 8vh;
+}
+
+nav .sezione-scritta{
+  width: 100%;
+  height: 12vh;
+  font-size: 4vh;
+  line-height: 12vh;
+}
+
+.sezione-scritta > #cerchio{
+  background-color: orange;
+  border-radius: 50%;
+  padding: 18px;
+}
+
+#sezione-mail{
+  width: 100%;
+  height: 18vh;
+  padding-top: 1vh;
+  border-bottom: 1px solid white;
+}
+
+#sezione-mail > .riga{
+  background-color: lightgray;
+  width: 100%;
+  height: 4vh;
+  padding-left: 0.5vw;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  line-height: 4vh;
+}
+
+.grassetto{
+  font-weight: bold;
+}
+
+.grigino{
+  color: gray;
+}
+
+#sezione-mail #riga-due{
+  background-color: white;
+}
+
+#sezione-mail #riga-quattro{
+  border-bottom: 1px solid black;
+}
+
+footer{
+  text-align: center;
+  padding-top: 2vh;
+  font-size: 3vh;
+}
+
+#italic-font{
+  font-style: italic;
+  font-family: 'Itim', cursive;
+}
+
+.grassetto-bianco{
+  font-weight: bold;
+  color: white;
+}

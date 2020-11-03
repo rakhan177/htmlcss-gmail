@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>GMail</title>
+  </head>
+  <body>
+    <div id="content">
+      <!-- logo e titolo -->
+      <header>
+        <img id="logo" src="img/logo.jpg" alt="logo">
+        <span class="titolone">Gmail</span>
+      </header>
+      <!-- /logo e titolo -->
+      <!-- navigazione -->
+      <nav>
+        <!-- creo di e inserisco input -->
+        <div id="input">
+          <form action="index.html">
+            <input id="input-width" type="search" name="ricerca" placeholder="search">
+            <input type="button" name="Button" value="Vai">
+          </form>
+        </div>
+        <!-- creo div per il titolo -->
+        <div id="centrato" class="titolone">
+          You have <span id="cerchio">30</span> unread
+        </div>
+      </nav>
+      <!-- /navigazione -->
+      <!-- inizio corpo pagina -->
+      <main>
+        <!-- creo le varie righe -->
+        <div class="riga">
+          <input type="checkbox" name="selezione">
+          &starf; <span class="oggetto-mail">Oggetto della mail</span><span class="testo-mail"> - testo della mail...</span>
+        </div>
+        <div class="riga" id="seconda-riga">
+          <input type="checkbox" name="selezione">
+          &starf; <span class="oggetto-mail">Oggetto della mail</span><span class="testo-mail"> - testo della mail...</span>
+        </div>
+        <div class="riga">
+          <input type="checkbox" name="selezione">
+          &starf; <span class="oggetto-mail">Oggetto della mail</span><span class="testo-mail"> - testo della mail...</span>
+        </div>
+        <div class="riga" id="ultima-riga">
+          <input type="checkbox" name="selezione">
+          &starf; <span class="oggetto-mail">Oggetto della mail</span><span class="testo-mail"> - testo della mail...</span>
+        </div>
+      </main>
+      <!-- /corpo pagina -->
+      <!-- piedipagina -->
+      <footer class="titolone">GMail <span id="carattere">powered by Matteo</span></footer>
+      <!-- piedipagina -->
+    </div>
+  </body>
+</html>
